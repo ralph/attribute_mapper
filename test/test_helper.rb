@@ -9,7 +9,7 @@ ActiveRecord::Base.establish_connection(
   :database => ':memory:'
 )
 
-ActiveRecord::Schema.define do 
+ActiveRecord::Schema.define do
   create_table :tickets do |table|
     table.column :status, :integer
   end

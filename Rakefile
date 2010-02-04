@@ -1,3 +1,4 @@
+require 'vendor/gems/environment.rb'
 require 'rake/testtask'
 require 'rcov/rcovtask'
 
