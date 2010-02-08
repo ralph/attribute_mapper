@@ -1,7 +1,7 @@
 gem 'activerecord'
 gem 'yard'
 
-only :test do
+group :test do
   gem 'shoulda'
   gem 'rcov'
   gem 'jeweler'

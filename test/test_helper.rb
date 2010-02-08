@@ -1,3 +1,4 @@
+require '.bundle/environment'
 require 'test/unit'
 require 'shoulda'
 
